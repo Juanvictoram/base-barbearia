@@ -1,0 +1,136 @@
+*{
+    border: 0px;
+    margin: none;
+    font-family: poppins, sans-serif;
+    background: #dd494900;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1d1812;
+    font-size: 12px;
+}
+footer p {
+    align-items: center;
+    justify-content: center;
+}
+.senhor{
+    width: 350px;
+    margin-top: 60px;
+    border-radius: 10px;
+    margin-bottom: -120px;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    
+    
+}
+body {
+    background-image: url(/src/img/retrato-de-homem-serio-e-barbudo-em-oculos-escuros-e-chapeu-de-cilindro.jpg);
+    
+    background-position: center;
+    background-size: cover;
+}
+button {
+    background-color: #6e6a5d;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: aliceblue;
+}
+button:hover {
+    background-color: #cedfdd;
+    color: #000000;
+    cursor: pointer;
+}
+.botao {
+    
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    place-items: center;
+    gap: 30px;
+
+}
+.location{
+    
+    padding: 100px 0;
+    background-image: url(/img/bg-location.jpg);
+    background-size: cover;
+    
+}
+.location .head{
+
+    background-color: #000000;
+    padding: 40px 0px;
+    width: 98%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    place-items: center;
+    gap: 50px;
+}
+.location .head .info{
+    display: flex;
+    align-items: center;
+}
+.location .head .info .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--color-primary);
+    border-radius: 100%;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+.location .head .info span{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    place-items: center;
+    gap: 30px;
+    
+    font-size: 13px;
+    color: #000;
+    margin: 0px -30px;
+
+}
+.location .head .info span:first-child{
+    color: rgb(173, 105, 40);
+}
+.location .head .info span:last-child{
+    color: rgb(255, 255, 255);
+}
+.location .map{
+    width: 100%;
+}
+.location .map iframe{
+    width: 98%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.info {
+    display: flex;
+    justify-content: space-evenly;
+}
+.location .head .info{
+    display: flex;
+    justify-content: space-around;
+    margin: -10px 0px;
+    
+}
+section {
+    margin-left: 12px;
+    justify-content: center;
+    align-items: center;
+    
+}
