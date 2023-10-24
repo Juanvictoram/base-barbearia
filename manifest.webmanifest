@@ -1,0 +1,21 @@
+{
+    "name": "Base Barbearia",
+    "short_name": "Base Barbearia",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#000000",
+    "description": "App para mebros da Base.",
+    "icons": [
+      
+      
+      {
+        "src": "/icon-512x512.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      }
+      
+      
+    ]
+
+    
+  }
